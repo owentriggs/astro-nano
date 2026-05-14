@@ -1,0 +1,27 @@
+media:
+  input: public/work
+  output: /work
+
+collections:
+  - name: blog
+    label: Council Blog
+    type: folder
+    path: src/content/blog
+    templates:
+      - fields:
+          - name: title
+            label: Title
+            type: string
+          - name: description
+            label: Short Summary
+            type: string
+          - name: date
+            label: Publish Date
+            type: date
+          - name: draft
+            label: Is this a draft?
+            type: boolean
+            default: false
+          - name: body
+            label: Post Content
+            type: rich-text
