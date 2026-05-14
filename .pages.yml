@@ -4,7 +4,7 @@ media:
 
 content:
   - name: blog
-    label: Council Blog
+    label: Blog
     type: collection
     path: src/content/blog
     fields:
